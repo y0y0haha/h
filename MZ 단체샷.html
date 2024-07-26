@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZ 단체샷</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .gallery-item img {
+            max-width: 700px; /* 최대 너비를 300px로 설정 */
+            max-height: 600px; /* 최대 높이를 200px로 설정 */
+            width: auto;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery-item h3 {
+            margin: 10px 0 0;
+        }
+        .gallery-item .source {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 10px; /* 글씨 크기를 10px로 줄임 */
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>MZ 단체샷</h1>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="mz1.jpg" alt="사진 1">
+            <h3>정수리 항공샷</h3>
+            <div class="source">출처: https://m.blog.naver.com/kmjolly/222996552682</div>
+        </div>
+        <div class="gallery-item">
+            <img src="mz2.jpg" alt="사진 2">
+            <h3>현혜연 샷</h3>
+        </div>
+    </div>
+</body>
+</html>
+
